@@ -1,5 +1,5 @@
-let username = 23;
-let password = 56;
+let username = 123;
+let password = 456;
 
 // if (username === 123 && password === 456) {
 //     console.log("Login Successful");
