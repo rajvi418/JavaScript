@@ -7,29 +7,17 @@ let password = 456;
 // else {
 //     console.log("Login Failed");
 // }
+if (username === 123) {
+    console.log("Correct UserName!");
 
-if (username === 123 && password === 456) {
-    if (username === 123) {
-        console.log("Correct UserName!");
-
-        if (password === 456) {
-            console.log("Correct Password!");
-
-            if (username === 123 && password === 456) {
-                console.log("Login Successfull !");
-            }
-            else {
-                console.log("");
-            }
-        }
-        else {
-            console.log("Incorrect Password!");
-        }
+    if (password === 456) {
+        console.log("Correct Password!");
     }
     else {
-        console.log("Incorrect UserName !");
+        console.log("Incorrect Password!");
     }
 }
 else {
-    console.log("Incorrect Username and Password !");
+    console.log("Incorrect UserName !");
 }
+
