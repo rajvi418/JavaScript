@@ -1,9 +1,37 @@
-let username = document.getElementById("username").value;
-let password = document.getElementById("password").value;
+let username = 23;
+let password = 56;
 
-if (username === 123 && password === 456) {
-    alert("Login Successful");
+// if (username === 123 && password === 456) {
+//     console.log("Login Successful");
+// }
+// else {
+//     console.log("Login Failed");
+// }
+
+if (username && password) {
+    if (username === 123) {
+
+        console.log("Correct UserName!");
+
+        if (password === 456) {
+
+            console.log("Correct Password!");
+
+            if (username === 123 && password === 456) {
+                console.log("Login Successfull !");
+            }
+            else {
+                console.log("Incorrect Username and Password !");
+            }
+        }
+        else {
+            console.log("Incorrect Password!");
+        }
+    }
+    else {
+        console.log("Incorrect UserName !");
+    }
 }
 else {
-    alert("Login Failed");
+    console.log("Login Fail");
 }
