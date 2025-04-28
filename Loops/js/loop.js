@@ -5,6 +5,6 @@ for (let i = 1; i < 10; i++)// 10<10
 }
 let j = 1;
 while (j < 10) {
-    console.log("Dreamz ", i)
+    console.log("Dreamz ", j)
     j++
 }
