@@ -1,0 +1,10 @@
+var phy = [95];
+var chem = [85];
+var bio = [96];
+var math = [98];
+result = phy[0] + chem[0] + bio[0] + math[0];
+console.log(phy);
+console.log(chem);
+console.log(bio);
+console.log(math);
+console.log(result);
