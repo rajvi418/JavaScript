@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    border: 2px solid red;
+    width: 30%;
+    padding: 30px;
+    margin: auto;
+    text-align: left;
+    line-height: 55px;
+}
+
+.submit-btn {
+    padding: 15px
+}
+
+input {
+    padding: 5px;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>Login Using Function</title>
+</head>
+
+<body>
+    <div class="container">
+        <form onsubmit="data()">
+            <!-- Name -->
+            <label for="">Full Name</label>
+            <input type="text" name="Name" id="fName" placeholder="Enter Your Full Name"> <br>
+
+            <!-- Number -->
+            <label for="">Phone Number</label>
+            <input type="tel" name="cont_number" id="number" placeholder="Enter Your Phone Number">
+            <br>
+
+            <!-- Email -->
+            <label for="">Email</label>
+            <input type="text" name="Email" id="email" placeholder="Enter your Email"> <br>
+
+            <!-- Gender -->
+            <label for="">Gender</label>
+            <input type="radio" id="Male" name="fav_language" value="Male">
+            <label for="">Male</label>
+            <input type="radio" name="gender" id="Female">
+            <label for="">Female</label><br>
+
+            <!-- Password -->
+            <label for="">Password</label>
+            <input type="password" name="Password" id="password" placeholder="Enter your Password">
+            <br>
+
+            <!-- Submit Button -->
+            <input type="submit" value="Submit" id="Submit" class="submit-btn">
+
+        </form>
+    </div>
+</body>
+<script src="JS/login.js"></script>
+
+</html>
